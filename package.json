@@ -1,0 +1,12 @@
+{
+  "name": "sb-works",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SB Works - Freelancing platform",
+  "scripts": {
+    "screenshots": "node scripts/screenshots.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
