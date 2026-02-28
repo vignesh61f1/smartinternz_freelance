@@ -294,22 +294,6 @@ Base URL: `http://localhost:5001/api` (or your backend `PORT`).
 
 ---
 
-## ER Diagram (Mermaid)
-
-```mermaid
-erDiagram
-    USER ||--o{ PROJECT : "creates (as client)"
-    USER ||--o{ BID : "places (as freelancer)"
-    PROJECT ||--o{ BID : "has"
-    PROJECT ||--|| USER : "assigned to freelancer"
-    PROJECT ||--o{ MESSAGE : "has"
-    PROJECT ||--o{ SUBMISSION : "has"
-    PROJECT ||--o{ REVIEW : "has"
-    PROJECT ||--o| PAYMENT : "has"
-    USER ||--o{ NOTIFICATION : "receives"
-```
-
----
 
 ## License
 
